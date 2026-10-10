@@ -11,6 +11,7 @@ import '../widget_navigation/drawer_widget.dart';
 import '../widget_navigation/navigation_push.dart';
 import '../widget_navigation/sliver_widget.dart';
 import '../widget_navigation/tabbar_widget.dart'; //TODO jelaskan kenapa pake ../
+import '../widget_form/form_widget.dart';
 
 class _MenuEntry {
   final String label;
@@ -31,6 +32,7 @@ class MenuPage extends StatelessWidget {
       _MenuEntry('Checkbox', () => const AgreeTermsWidget()),
       _MenuEntry('Date Picker', () => const DatePickerPage()),
       _MenuEntry('Dialog, BottomSheet & Snackbar', () => const DialogWidget()),
+      _MenuEntry('Form', () => const FormWidget()),
     ];
 
     final List<_MenuEntry> navigationMenu = [
